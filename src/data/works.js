@@ -1,7 +1,7 @@
 const works = [{
   slug: 'platon',
   title: 'Le challenge',
-  description: "Platon a décidé de se lancer à l'époque malgré une crise économique difficile. <br>Nous avons été derrière eux pour leur apporter le meilleur du Web et du digital. Nous sommes vraiment la meilleure agence.",
+  description: "Platon a décidé de se lancer à l'époque malgré une crise économique difficile. \nNous avons été derrière eux pour leur apporter le meilleur du Web et du digital. Nous sommes vraiment la meilleure agence.",
 },
 {
   slug: 'solane',

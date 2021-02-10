@@ -4,13 +4,11 @@ import works from '../../data/works';
 
 const CaseStudy = () => {
   const { workSlug } = useParams();
-  console.log(useParams());
   const [currentWork, setCurrentWork] = useState(undefined);
 
   useEffect(() => {
     const foundWork = works.find((work) => `${work.slug}-study-case` === workSlug);
     setCurrentWork(foundWork);
-    console.log(foundWork);
   }, [workSlug]);
 
   return (
