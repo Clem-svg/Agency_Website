@@ -10,16 +10,6 @@ Enjoy !
 
 # 🌚 🌝
 
-- [:first_quarter_moon: Benjamin Serval](https://github.com/BenjaminServal)
-- [:waxing_gibbous_moon: Clémentine Fouqué](https://github.com/Clem-svg)
-- [:full_moon: Marie Dechaux](https://github.com/mariedx)
-
-:waxing_crescent_moon:
-:first_quarter_moon:
-:waxing_gibbous_moon:
-:full_moon:
-:waning_gibbous_moon:
-:last_quarter_moon:
-:waning_crescent_moon:
-:last_quarter_moon_with_face:
-:first_quarter_moon_with_face:
+- [:waning_crescent_moon: Benjamin Serval](https://github.com/BenjaminServal)
+- [:last_quarter_moon: Clémentine Fouqué](https://github.com/Clem-svg)
+- [:waning_gibbous_moon: Marie Dechaux](https://github.com/mariedx)
