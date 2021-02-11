@@ -1,14 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin themeBtn {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 10px #E8E8E8 inset;
+  height: 40px;
+  margin: 0 0 0 25px;
+  padding: 10px;
+  width: 110px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+
+////////  TITLE SIZE /////////
+@for $i from 1 through 6 {
+  h#{7 - $i} {
+      font-size: 2.4em / 6 * $i;
+  }
+}
+
+////////  COLORS /////////
+$white: #FFFFFF;
+$black: #121212;
+
+$primary-dark: #BB86FC;
+$variant-dark: #3700B3;
+$secondary-dark: #03DAC6;
+
+$primary: #085b48;
+$success: #1aae8b;
+$danger: #f0394d;
+/////////////////////////
+
+
+nav {
+  padding-top: 50px;
+  text-transform: uppercase;
+
+    a {
+      padding-right: 20px;
+    }
+
+    a:hover {
+      text-decoration: none;
+      font-size: larger;
+    }
+
+}
 
 .dark {
   font-family: sans-serif;
-  background-color: #333;
+  background-color: $black;
   text-align: center;
-  color: #eee;
+  color: $white;
   height: 100vh;
+
+  select {
+    @include themeBtn();
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616_960_720.jpg);
+    background-color: rgb(2, 13, 41);
+    border: none;
+
+  }
+
+  nav a {
+    color: $white;
+    &:hover{
+      color:$secondary-dark
+    }
+  }
+
+  h1 {
+    color:$primary-dark
+  }
 }
 
 .light {
   font-family: sans-serif;
   text-align: center;
-  color: #333;
+  color: $black;
+
+  select {
+    @include themeBtn();
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/06/22/55/sun-3588618_960_720.jpg);
+    background-color: rgb(17, 167, 212);
+  }
+
+  nav a {
+    color: $black;
+  }
+
 }
