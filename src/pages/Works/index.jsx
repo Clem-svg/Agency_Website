@@ -7,7 +7,7 @@ import Default from './Default';
 const Works = () => (
   <>
     <Router>
-      <h2>Nos projets</h2>
+      <h1>Nos projets</h1>
       <NavWorks />
       <Switch>
         <Route path="/works/:workSlug">

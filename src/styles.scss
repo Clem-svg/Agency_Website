@@ -29,6 +29,7 @@
   }
 }
 
+
 ////////  COLORS /////////
 $white: #FFFFFF;
 $black: #121212;
@@ -81,8 +82,15 @@ nav {
   }
 
   h1 {
-    color:$primary-dark
+    color: $primary-dark;
   }
+////////  TITLE SIZE /////////
+@for $i from 1 through 5 {
+  h#{7 - $i} {
+      color: $variant-dark
+  }
+}
+
 }
 
 .light {

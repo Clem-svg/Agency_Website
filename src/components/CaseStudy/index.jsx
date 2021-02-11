@@ -18,7 +18,7 @@ const CaseStudy = () => {
       )}
       {currentWork && (
         <>
-          <h1>{currentWork.title}</h1>
+          <h2>{currentWork.title}</h2>
           <p>{currentWork.description}</p>
         </>
       )}
