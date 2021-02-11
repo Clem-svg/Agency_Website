@@ -4,7 +4,7 @@ import works from '../../data/works';
 
 const NavWorks = () => (
   <nav>
-    <div>
+    <div className="navWork">
       <Link to="/" />
       {works.map((work) => (
         <Link to={`/works/${work.slug}-study-case`} key={work.slug}>

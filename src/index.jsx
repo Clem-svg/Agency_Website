@@ -29,8 +29,10 @@ const App = () => {
     >
       <div className={theme}>
         <Router>
-          <ToolBar />
-          <NavBar />
+          <div className="nav">
+            <NavBar />
+            <ToolBar />
+          </div>
           <main>
             <Switch>
               <Route path="/" exact>
