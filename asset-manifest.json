@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Agency_Website/static/css/main.c1faaf68.chunk.css",
+    "main.js": "/Agency_Website/static/js/main.ee1bbf1b.chunk.js",
+    "main.js.map": "/Agency_Website/static/js/main.ee1bbf1b.chunk.js.map",
+    "runtime-main.js": "/Agency_Website/static/js/runtime-main.d70a3cca.js",
+    "runtime-main.js.map": "/Agency_Website/static/js/runtime-main.d70a3cca.js.map",
+    "static/css/2.150d169a.chunk.css": "/Agency_Website/static/css/2.150d169a.chunk.css",
+    "static/js/2.4af89b06.chunk.js": "/Agency_Website/static/js/2.4af89b06.chunk.js",
+    "static/js/2.4af89b06.chunk.js.map": "/Agency_Website/static/js/2.4af89b06.chunk.js.map",
+    "index.html": "/Agency_Website/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/Agency_Website/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.c1faaf68.chunk.css.map": "/Agency_Website/static/css/main.c1faaf68.chunk.css.map",
+    "static/js/2.4af89b06.chunk.js.LICENSE.txt": "/Agency_Website/static/js/2.4af89b06.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d70a3cca.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.4af89b06.chunk.js",
+    "static/css/main.c1faaf68.chunk.css",
+    "static/js/main.ee1bbf1b.chunk.js"
+  ]
+}
