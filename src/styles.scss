@@ -146,6 +146,7 @@ h2 {
       background-image: url(https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616_960_720.jpg);
       background-color: rgb(2, 13, 41);
       border: none;
+      transition: background 1.3s ease-in-out, 1.6s ease-in-out;
 
     }
 
@@ -192,6 +193,7 @@ h2 {
     @include themeBtn();
     background-image: url(https://cdn.pixabay.com/photo/2018/08/06/22/55/sun-3588618_960_720.jpg);
     background-color: rgb(17, 167, 212);
+    transition: background 1.3s ease-in-out, 1.6s ease-in-out;
   }
 
   .nav{
