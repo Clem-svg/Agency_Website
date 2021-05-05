@@ -9,7 +9,3 @@ Réalisation du site d'une agence fictive avec une app `React` et en utilisant l
 Enjoy !
 
 # 🌚 🌝
-
-- [:waning_crescent_moon: Benjamin Serval](https://github.com/BenjaminServal)
-- [:last_quarter_moon: Clémentine Fouqué](https://github.com/Clem-svg)
-- [:waning_gibbous_moon: Marie Dechaux](https://github.com/mariedx)
